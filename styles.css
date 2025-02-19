@@ -40,7 +40,7 @@ div.conteiner_cards {
 div.cards_ferramentas {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Alinha os atributos dos cards ao topo */
     align-items: center;
     width: 350px;
     border: 2px solid darkgray;
@@ -59,6 +59,7 @@ h1.cards_title {
 
 img.cards_img {
     width: 300px;
+    border-radius: 10px;
 }
 
 p.cards_p {
